@@ -51,7 +51,7 @@ const swiper3 = new Swiper('.promoSwiper', {
 //HEADER SIMPLIFY FUNCTION
 
 $(window).scroll(function(){
-    if($(window).scrollTop() >= 100){
+    if($(window).scrollTop() >= 250){
         document.querySelector("#navbar-menu").classList.add("simplified")
     }
     else {

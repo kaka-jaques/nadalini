@@ -66,18 +66,31 @@ header .simplified img{
       justify-content: center;
       align-items: center;
 }
+#catalog .container .col{
+    display: flex;
+    text-align: center;
+}
+#catalog .container .col a{
+    text-decoration: none;
+    color: black;
+}
+#catalog .container .col img{
+    width: 130px;
+    border-radius: 300px;
+}
 .socialSwiper {
     width: 80%;
     height: 600px;
 }
 .socialSwiper .swiper-slide{
     text-align: center;
-      font-size: 18px;
-      background: #7e7e7e;
-      height: calc((100% - 50px) / 2) !important;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    font-size: 18px;
+    background: #7e7e7e;
+    height: calc((100% - 50px) / 2) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
 }
 footer{
     border-top: 2px solid rgb(63, 63, 63);
