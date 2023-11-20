@@ -48,6 +48,20 @@ const swiper3 = new Swiper('.promoSwiper', {
     }
 })
 
+const swiper4 = new Swiper('.catalogSwiper', {
+    slidesPerView: 3,
+    loop: false,
+    spaceBetween: 40,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    }
+})
+
 //HEADER SIMPLIFY FUNCTION
 
 $(window).scroll(function(){

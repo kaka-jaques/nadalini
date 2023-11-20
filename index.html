@@ -25,7 +25,7 @@
 <body>
     <header>
         <div class="nav-bar" id="navbar-menu">
-            <img src="./assets/imgs/nadalini_logo.png" alt="">
+            <img src="./assets/imgs/nadalini-logo.png" alt="">
             <div class="row">
                 <div class="col" style="margin-left: 200px;"><a href="#home">Home</a></div>
                 <div class="col"><a href="#promos">Promoções</a></div>
@@ -39,7 +39,6 @@
     <main>
         <div class="swiper introSwiper" id="home">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./assets/imgs-templates/pexels-cottonbro-studio-7564861.jpg" alt="Nadalini"></div>
                 <div class="swiper-slide"><img src="./assets/imgs/Nadalini_3.jpg" alt="Nadalini"></div>
                 <div class="swiper-slide"><img src="./assets/imgs/Nadalini-04.png" alt="Nadalini"></div>
             </div>
@@ -69,31 +68,25 @@
         </section>
         <section id="catalog">
             <h1>Catálogo</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-VOLVO.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">Volvo</a>
+                <div class="swiper catalogSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">
+                            <a href="assets/docs/CATALOGO-VOLVO.pdf" target="_blank">
+                                <div class="link">
+                                    <img src="./assets/imgs/volvo-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">Slide 2</div>
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">Slide 3</div>
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">Slide 4</div>
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">Slide 5</div>
+                        <div class="swiper-slide" style="background-image: url('../assets/imgs/truck-volvo.png'); background-size: cover; background-position: -60px 0px;">Slide 6</div>
                     </div>
-                    <div class="col">
-                        <a href="assets/docs//CATALOGO-SCANIA.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">SCANIA</a>
-                    </div>
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-MERCEDES.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">MERCEDES</a>
-                    </div>
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-MAN.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">MAN</a>
-                    </div>
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-IVECO.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">IVECO</a>
-                    </div>
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-DAF.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">DAF</a>
-                    </div>
-                    <div class="col">
-                        <a href="assets/docs/CATALOGO-CARRETA.pdf" target="_blank"><img src="./assets/imgs/truck-volvo.png" alt="">CARRETA</a>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-            </div>
         </section>
         <h1>Instagram Feed</h1>
         <section id="social">
@@ -113,6 +106,8 @@
                   <div class="swiper-slide">Slide 9</div>
                 </div>
                 <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
               </div>
         </section>
         <section id="contact">
@@ -123,7 +118,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col copyright">
-                    <p>Copyright © 2023 GM Auto Center. Todos os direitos reservados | Made by <a href="https://kaka-jaques.github.io/" target="_blank">Kalil J. Fakhouri</a></p>
+                    <p>Copyright © 2024 Nadalini Representações. Todos os direitos reservados | Made by <a href="https://kaka-jaques.github.io/" target="_blank">Kalil J. Fakhouri</a></p>
                 </div>
             </div>
         </div>

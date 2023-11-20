@@ -35,14 +35,11 @@ header .nav-bar .btn{
     height: 70px;
 }
 header .nav-bar img{
-    border-radius: 200px;
-    transform: translateY(20px);
-    border: 5px solid black;
-    width: 7%;
+    width: 13%;
     transition: 0.3s ease-in-out;
 }
 header .simplified img{
-    width: 6%;
+    width: 11%;
 }
 .introSwiper {
     width: 100%;
@@ -66,17 +63,26 @@ header .simplified img{
       justify-content: center;
       align-items: center;
 }
-#catalog .container .col{
+.catalogSwiper{
+    width: 70%;
+    height: 500px;
+}
+.catalogSwiper .swiper-slide{
     display: flex;
     text-align: center;
+    background: #7e7e7e;
+    justify-content: center;
+    align-items: center;
 }
-#catalog .container .col a{
-    text-decoration: none;
-    color: black;
+.catalogSwiper .swiper-slide a .link {
+    height: 500px;
 }
-#catalog .container .col img{
-    width: 130px;
-    border-radius: 300px;
+.catalogSwiper .swiper-slide a .link img{
+    width: 50%;
+}
+.catalogSwiper .swiper-slide a .fill-div{
+    width: 300px;
+    height: 500px;
 }
 .socialSwiper {
     width: 80%;
