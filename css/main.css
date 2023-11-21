@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@500;600;700&family=Tenor+Sans&display=swap');
 
 header{
     height: 100px;
@@ -11,12 +12,18 @@ header .nav-bar {
     z-index: 99;
     display: flex;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sen', sans-serif;
     font-weight: 700;
     justify-content: center;
-    font-size: 19px;
+    font-size: 15px;
     background-color: rgb(238, 238, 238);
     transition: 0.3s ease-in-out;
+}
+header .nav-bar .col{
+    border-left: 0.1px solid black;
+    border-right: 0.1px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 header .simplified{
     height: 80px;
@@ -25,7 +32,13 @@ header .nav-bar a{
     text-decoration: none;
     color: black;
     transition: 0.2s ease-in-out;
+    border-bottom: 0.5px solid black;
+    align-items: center;
+    display: flex;
 }
+header .nav-bar a .fa-whatsapp{
+    height: 25px;
+}   
 header .nav-bar a:hover{
     color: rgb(29, 151, 70);
 }
@@ -35,11 +48,18 @@ header .nav-bar .btn{
     height: 70px;
 }
 header .nav-bar img{
-    width: 13%;
+    width: 16%;
     transition: 0.3s ease-in-out;
 }
 header .simplified img{
-    width: 11%;
+    width: 14%;
+}
+main{
+    font-family: 'Tenor San', sans-serif;
+    text-align: center;
+}
+main .fulfill{
+    height: 100px;
 }
 .introSwiper {
     width: 100%;
@@ -47,6 +67,7 @@ header .simplified img{
 }
 .introSwiper .swiper-slide{
     text-align: center;
+    background-color: #7e7e7e;
 }
 .introSwiper .swiper-slide img{
     height: 100%;
