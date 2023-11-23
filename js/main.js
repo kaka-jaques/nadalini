@@ -65,10 +65,5 @@ const swiper4 = new Swiper('.catalogSwiper', {
 //HEADER SIMPLIFY FUNCTION
 
 $(window).scroll(function(){
-    if($(window).scrollTop() >= 250){
-        document.querySelector("#navbar-menu").classList.add("simplified")
-    }
-    else {
-        document.querySelector("#navbar-menu").classList.remove("simplified")
-    }
+    document.querySelector("#navbar-menu").setAttribute("style", "background-color: rgba(238, 238, 238," + ($(window).scrollTop() / 200) + ");")
 })
