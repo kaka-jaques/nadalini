@@ -81,11 +81,20 @@ main .fulfill{
     display: flex;
     flex-direction: column;
 }
-#about .col h1{
-    margin-top: auto;
+#about .ml-1{
+    margin-left: 3%;
 }
-#about .col p{
+#about .col .box {
+    margin-top: auto;
     margin-bottom: auto;
+    padding: 25px;
+    background-color: antiquewhite;
+    box-shadow: -13px 15px 1px 0px rgba(3, 49, 5, 0.76);
+    border-radius: 10px;
+}
+#about .col .box h1{
+    border-radius: 10px;
+    box-shadow: -5px 5px 1px 0px rgba(3, 49, 5, 0.76);
 }
 .promoSwiper{
     width: 70%;
