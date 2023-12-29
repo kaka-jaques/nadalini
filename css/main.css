@@ -18,16 +18,16 @@ header .nav-bar {
     transition: 0.3s ease-in-out;
 }
 header .nav-bar .col{
-    border-left: 0.1px solid black;
-    border-right: 0.1px solid black;
+    border-left: 0.1px solid #4C4E53;
+    border-right: 0.1px solid #4C4E53;
     padding-left: 25px;
     padding-right: 25px;
 }
 header .nav-bar a{
     text-decoration: none;
-    color: black;
+    color: #4C4E53;
     transition: 0.2s ease-in-out;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid #4C4E53;
     align-items: center;
     display: flex;
 }
@@ -50,8 +50,17 @@ main{
     font-family: 'Sen', sans-serif;
     text-align: center;
 }
-main .fulfill{
-    height: 100px;
+main .introSwiper .welcome{
+    position: absolute;
+    z-index: 99;
+    top: 300px;
+    left: 22%;
+}
+main .introSwiper h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
 }
 .introSwiper {
     width: 100%;
@@ -98,16 +107,19 @@ main .fulfill{
     border-radius: 10px; */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: #4C4E53;
 }
 #about .col h1{
     font-weight: 800;
     font-size: 75px;
+    color: #4C4E53;
 }
 #promos h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin: 50px;
     font-size: 50px;
+    color: #4C4E53;
 }
 .promoSwiper{
     width: 90%;
@@ -130,6 +142,32 @@ main .fulfill{
 .promoSwiper .swiper-button-prev{
     color: green;
 }
+#feedback{
+    background-color: #2FAC66;
+    padding-bottom: 100px;
+}
+#feedback h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px;
+    color: #4C4E53;
+    padding-top: 50px;
+}
+.feedbackSwiper{
+    width: 70%;
+    height: 500px;
+}
+.feedbackSwiper .swiper-slide{
+    background-color: #7e7e7e;
+}
+#catalog h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px;
+    color: #4C4E53;
+}
 .catalogSwiper{
     width: 70%;
     height: 500px;
@@ -151,6 +189,13 @@ main .fulfill{
     width: 300px;
     height: 500px;
 }
+#social h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px;
+    color: #4C4E53;
+}
 .socialSwiper {
     width: 80%;
     height: 600px;
@@ -165,14 +210,21 @@ main .fulfill{
     align-items: center;
     transition: 0.3s ease-in-out;
 }
+#contact h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px;
+    color: #4C4E53;
+}
 footer{
     border-top: 2px solid rgb(63, 63, 63);
     height: 100px;
-    background-color: rgb(30, 131, 64);
+    background-color: #2FAC66;
 }
 footer .col{
     margin-top: 20px;
     margin-left: 50px;
     font-size: 12px;
-    color: rgb(66, 66, 66);
+    color: #4C4E53;
 }

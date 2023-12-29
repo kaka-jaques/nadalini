@@ -62,6 +62,16 @@ const swiper4 = new Swiper('.catalogSwiper', {
     }
 })
 
+const swiper5 = new Swiper('.feedbackSwiper', {
+    slidesPerView: 3,
+    loop: true,
+    spaceBetween: 40,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+    }
+})
+
 //HEADER SIMPLIFY FUNCTION
 
 $(window).scroll(function(){
