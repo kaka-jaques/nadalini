@@ -1,3 +1,29 @@
+//REQUISIÇÃO INSTRAGRAM
+
+const apiUrl = 'https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,media_type&access_token=IGQWRPTTZAmdllIU0xqUmJPN3NfMkt2WlQ1VmRfb2dDb1NXR0hSVHNSMTZASNC1lcDQ0bzhUQUNjYXNSbThZAYkF0S0hvV08yZA1RORGhyS3M1dkUybDJvY2FHZA0hMTFpnLXl0QVZAaRkZABWlJITmd2MVBiWmpBclpWZAzQZD&limit=10';
+
+fetch(apiUrl)
+  .then(response => {
+    // Verifica se a resposta está OK (status 200-299)
+    if (!response.ok) {
+      console.log('Erro na requisição instagram:', response.status);
+    }
+    // Converte a resposta para JSON
+    return response.json();
+  })
+  .then(data => {
+    // Manipula os dados da resposta
+    for(let i = 0;i<data.data.length;i++){
+        document.querySelector('#slide'+i).setAttribute('src', data.data[i].media_url);
+        document.querySelector('#url'+i).setAttribute('href', data.data[i].permalink);
+    }
+
+  })
+  .catch(error => {
+    // Manipula erros durante a requisição
+    console.error('Erro:', error);
+  });
+
 //SWIPERS
 
 const swiper = new Swiper('.introSwiper', {
