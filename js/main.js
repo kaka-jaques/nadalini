@@ -98,6 +98,14 @@ const swiper5 = new Swiper('.feedbackSwiper', {
     }
 })
 
+const swiper6 = new Swiper('.teamSwiper', {
+    slidesPerView: 6,
+    spaceBetween: 40,
+    centeredSlides: true,
+    allowSlideNext: false,
+    allowSlidePrev: false
+})
+
 //HEADER SIMPLIFY FUNCTION
 
 $(window).scroll(function(){

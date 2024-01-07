@@ -143,6 +143,36 @@ main .introSwiper h1{
     font-size: 50px;
     color: #4C4E53;
 }
+.teamSwiper{
+    width: 75%;
+    height: 300px;
+}
+.teamSwiper .swiper-wrapper{
+    margin-left: -8.5%;
+}
+.teamSwiper .swiper-slide{
+    text-align: center;
+    background-color: #4C4E53;
+    border-radius: 25px;
+    padding: 10px;
+    border: 10px solid #2FAC66;
+    color: white;
+}
+.teamSwiper .swiper-slide .btn{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.teamSwiper .swiper-slide .btn:hover{
+    background-color: #2FAC66;
+    border-color: #2FAC66;
+}
+.teamSwiper .swiper-slide img{
+    border-radius: 20px;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+}
 #promos h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
